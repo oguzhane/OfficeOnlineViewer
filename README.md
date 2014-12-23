@@ -9,7 +9,7 @@ Office Online Viewer is available as the following extensions: Userscript and Ch
  * [OneDrive](http://1drv.ms/1E4LVaY)
 
 ### Chrome
- * [Chrome Web Store](https://openuserjs.org/install/OguzhanE/Office_Online_Viewer.user.js)
+ * [Chrome Web Store](https://chrome.google.com/webstore/detail/office-online-viewer/logeffmgeflkcpplmcohdancnofoemfc)
  
 ## License
 The MIT License (MIT)
