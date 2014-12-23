@@ -1,0 +1,15 @@
+{
+  "name": "Office Online Viewer",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description" : "View office documents in your browser with Microsoft Office Online",
+  "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+	  "exclude_matches": ["http://view.officeapps.live.com/*", "https://view.officeapps.live.com/*", "http://office.live.com/*", "https://office.live.com/*", "http://docs.google.com/*", "https://docs.google.com/*", "http://mail.google.com/*", "https://mail.google.com/*", "http://viewer.zoho.com/*", "https://viewer.zoho.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
